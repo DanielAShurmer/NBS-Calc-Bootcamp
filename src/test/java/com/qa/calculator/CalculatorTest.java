@@ -25,4 +25,11 @@ public class CalculatorTest {
 		int result = calculator.divide(18,2);
 		Assert.assertEquals(9, result);
 	}
+	
+	@Test
+	public void subtractTwoNumbers_Test() {
+		Calculator calculator = new Calculator();
+		int result = calculator.subtract(7,3);
+		Assert.assertEquals(4, result);
+	}
 }
