@@ -18,4 +18,11 @@ public class CalculatorTest {
 		int result = calculator.multiply(3,4);
 		Assert.assertEquals(12, result);
 	}
+	
+	@Test
+	public void divideTwoNumbers_Test() {
+		Calculator calculator = new Calculator();
+		int result = calculator.divide(18,2);
+		Assert.assertEquals(9, result);
+	}
 }
